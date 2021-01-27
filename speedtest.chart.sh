@@ -35,7 +35,7 @@ speedtest_update() {
 	cat <<VALUESEOF
 BEGIN system.connectionspeed
 SET down = $down
-SET up = $up
+SET up = -$up
 END
 VALUESEOF
 
